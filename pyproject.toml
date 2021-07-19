@@ -9,7 +9,16 @@ python = "^3.8"
 kopf = "^1.32.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+black = "^21.7b0"
+coverage = {extras = ["toml"], version = "*"}
+flake8 = "*"
+hacking = "*"
+isort = "*"
+pyfakefs = "*"
+pytest = "^6.0.1"
+pytest-clarity = "*"
+pytest-cov = "*"
+pytest-mock = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

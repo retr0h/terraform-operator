@@ -1,2 +1,5 @@
 *
-!terraform-operator
+!handlers.py
+!poetry.lock
+!pyproject.toml
+!terraform_operator
