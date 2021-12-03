@@ -9,7 +9,7 @@ CONTAINER_LATEST=$(CI_REGISTRY_IMAGE):latest
 
 .PHONY: run
 run:
-	poetry run kopf run terraform_operator/handlers.py --verbose
+	poetry run kopf run handlers.py --verbose
 
 .PHONY: build
 build: image-build image-tag

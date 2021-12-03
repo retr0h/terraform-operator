@@ -5,6 +5,7 @@ description = "Manages datacenter infrastructure through Terraform directly from
 authors = ["נυαη נυαηѕση <john@dewey.ws>"]
 
 [tool.poetry.dependencies]
+pykube-ng = "^21.3.0"
 python = "^3.8"
 kopf = "^1.32.1"
 
